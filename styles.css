@@ -1,0 +1,78 @@
+* body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-light {
+    background-color: #F2F2F2 !important;
+}
+.btn-warning {
+    background-color: #FF9900 !important;
+}
+h1{
+    font-weight: 700 !important;
+}
+p{
+    font-weight: 400 !important;
+}
+h2{
+    font-weight: 600 !important;
+}
+.fw-semi-bold{
+    font-weight: 600 !important;
+}
+.fw-regular{
+    font-weight: 500 !important;
+}
+.fw-normal{
+    font-weight: 400 !important;
+}
+.link{
+    color:#2F281E;
+}
+#bg-feature{
+    background-image: url('./Assets/Bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom ;
+}
+
+img{
+    max-width: 100%;
+}
+
+#bg-avator{
+    background-image: url('./Assets/Bg\ oval.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+#contain{
+    position: relative;
+}
+#content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+#avator{
+    width: 100%;
+    max-height:fit-content;
+}
+
+.carousel-cell {
+    width: 33%;
+    height: fit-content;
+    margin-right: .1em;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-cell { 
+        width: 100%;
+     }
+  }
+  @media (max-width: 992px) {
+    .carousel-cell { 
+        width: 50%;
+     }
+  }
+  
